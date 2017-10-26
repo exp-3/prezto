@@ -11,3 +11,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+## aliases
+alias cd="cdls"
+
+alias gcc="gcc -std=c99 -Wall -Wextra -lm"
+alias g++="g++ -std=c++14 -Wall -Wextra"
+alias clang="clang -std=c99 -Wall -Wextra -lm"
+alias clang++="clang++ -std=c++14 -Wall -Wextra"
+
+alias du="du -ah --max-depth=1"
